@@ -383,9 +383,9 @@ class VisualMode extends KeyHandlerMode {
   // A movement can be either a string or a function.
 VisualMode.prototype.movements = {
   "l": "forward character",
-  "h": "backward character",
-  "j": "forward line",
-  "k": "backward line",
+  "j": "backward character",
+  "k": "forward line",
+  "i": "backward line",
   "e": "forward word",
   "b": "backward word",
   "w": "forward vimword",
